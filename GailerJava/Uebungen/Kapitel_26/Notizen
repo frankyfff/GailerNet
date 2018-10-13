@@ -1,0 +1,18 @@
+Der == -Operator sieht nach dem Inhalt der beiden Referenzvariablen. 
+Wenn der Inhalt beider Referenzvariablen der gleiche ist, 
+dann ist das Ergebnis true. 
+Andernfalls ist das Ergebnis false. 
+Da jedes Objekt eine eindeutige Referenz hat, 
+stellt der Operator fest, ob zwei Referenzvariablen auf dasselbe Objekt verweisen.
+
+Der == -Operator sieht NICHT nach Objekten!   
+Er betrachtet nur Referenzen (Information darüber, wo ein Objekt aufzufinden ist.) 
+
+== Betrachtet nur Variablen.
+
+Sie haben bereits die Methode equals( String ) der Klasse String gesehen.
+Die Methode equals( String ) der Klasse String überprüft, 
+ob zwei Strings die gleichen Zeichen enthalten. 
+Die Methode equals( String ) betrachtet Objekte. 
+Sie ermittelt "Äquivalenz". 
+Der == -Operator ermittelt "Identität". 
