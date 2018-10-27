@@ -9,5 +9,15 @@ public class CosBsp {
 		System.out.println("Kosinus ist: "+ Math.cos(x));
 
 	}
+	
+	static void tmp()
+	{
+		System.out.println("dubidu");
+	}
+	
+	public void nostatic()
+	{
+		System.out.println("nostatic");
+	}
 
 }
